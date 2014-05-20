@@ -9,7 +9,3 @@
   #2.)
    # This programs returns [1, 2, 3]
    # arr = [["b"], ["a", [1, 2, 3]]]
-
-
-
-# typing your solution to "learn with my fingers"
