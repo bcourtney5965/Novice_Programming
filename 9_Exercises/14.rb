@@ -1,0 +1,20 @@
+#   ruby 14.rb
+
+# 14.rb
+
+# My answer
+# could not gets it, did not know where to start..
+
+# Your answer - learning with my fingers
+
+contact_data = ["joe@email.com", "123 Main st.", "555-123-4567"]
+contacts = {"Joe Smith" => {}}
+fields = [:email, :address, :phone]
+
+contacts.each do |name, hash|
+  fields.each do |field|
+    hash[field] = contact_data.shift
+  end
+end
+
+puts contacts
